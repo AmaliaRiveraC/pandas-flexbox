@@ -81,7 +81,7 @@ img {
     margin: 5%;
 }
 
-.cerrar {
+span {
     height: 10%;
     color: #DF0101;
     border-radius: 100%;
@@ -108,6 +108,7 @@ img {
     font-size: 18px;
     padding: 1%;
     margin: 2%;
+    cursor: pointer;
 }
 
 /*Seccion texto-informacion*/

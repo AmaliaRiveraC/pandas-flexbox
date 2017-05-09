@@ -7,9 +7,17 @@ var imagenPanda = document.getElementsByClassName("imagenPanda");
 
 for(var i=0; i < imagenPanda.length; i++) {
   cerrar[i].addEventListener("click", function(){
-    imagenPanda[i].style.display = "none";
+    this.style.display = "none";  
   });
 }
+
+botones[2].addEventListener("click", function(){
+  for(var j=0; j < imagenPanda.length; j++) {
+    cerrar[j].style.display = "flex";
+  }
+});
+                             
+
 
 botones[0].addEventListener("click", function() {
   if(textoOrigen.style.visibility == "visible") {
