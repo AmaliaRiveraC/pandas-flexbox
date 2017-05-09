@@ -54,6 +54,10 @@ li {
     cursor: pointer;
 }
 
+#favicon {
+  margin: 20%;
+}
+
 /* Seccion imagenes de pandas*/ 
 
 #cuerpoPagina {
