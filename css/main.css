@@ -69,14 +69,28 @@ li {
     width: 90%;
     margin: 4%;
 }
-
-img {
-    margin: 10%;
-    width: 80%;
-    height: 100%;
-    border-radius: 80%;
+#pandas div {
+  position: relative;
 }
 
+img {
+    width: 80%;
+    height: 100%;
+    border-radius: 40%;
+    padding: 1%;
+    margin: 5%;
+}
+
+.cerrar {
+    height: 10%;
+    color: #DF0101;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 100%;
+    cursor: pointer;
+}
 
 #contenedorOpciones {
   display: flex;
@@ -114,6 +128,6 @@ p {
     padding: 2.9%;
 }
 
-#extincion {
+#textoExtincion {
   margin-left: 6%;
 }
