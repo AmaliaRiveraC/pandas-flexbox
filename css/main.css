@@ -1,0 +1,119 @@
+/*Barra nav en flex box"*/
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+  background-color: #DF0101;
+}
+
+.container {
+    display: flex;
+    width: 100%;    
+}
+
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contenedorImagenNav {
+  display: flex;
+  width: 10%;
+}
+nav img {
+  width: 30%;
+  height: 30%;
+  padding: 0;
+}
+
+#contenedorEnlacesNav {
+  display: flex;
+  height: 25%;
+}
+
+a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+li {
+    margin: 5%;
+    padding: 6%;
+    list-style: none;
+    cursor: pointer;
+}
+
+/* Seccion imagenes de pandas*/ 
+
+#cuerpoPagina {
+  display: flex;
+  width: 100%;
+  background-color: #000;
+  flex-wrap: wrap;
+}
+
+#pandas {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 4%;
+}
+
+img {
+    margin: 10%;
+    width: 80%;
+    height: 100%;
+    border-radius: 80%;
+}
+
+
+#contenedorOpciones {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.opcion {
+    width: 80%;
+    color: white;
+    text-align: center;
+    background-color: #DF0101; 
+    font-size: 18px;
+    padding: 1%;
+    margin: 2%;
+}
+
+/*Seccion texto-informacion*/
+#contenedorTexto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 80%;
+  margin-left: 2%;
+  
+}
+p {
+    border: 2px solid red;
+    width: 30%;
+    text-align: justify;
+    color: white;
+    font-size: 14px;
+    padding: 2.9%;
+}
+
+#extincion {
+  margin-left: 6%;
+}
